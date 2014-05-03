@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int V,I;
+    cout << "ingrese la cantidad de la venta mensual: ";
+    cin >> V;
+    I = V * 0.13;
+    cout << "Su impuesto a pagar es : " << I << endl;
+    return 0;
+}
