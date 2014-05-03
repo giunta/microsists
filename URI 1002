@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cstdio>
+
+using namespace std;
+
+int main()
+{
+    float  A,R ;
+
+    cin >> R;
+    A= R*R*3.14159;
+    printf("A=%.4f\n", A);
+
+    return 0;
+}
