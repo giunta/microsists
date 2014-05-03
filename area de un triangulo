@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{int a,b,h;
+cout << "ingrese el numero de la base del triangulo: ";
+cin >> b;
+cout << "ingrese el numero de la altura del triangulo: ";
+cin >> h;
+a = (b*h)/2;
+    cout << "el area del trianguo es: " << a << endl;
+    return 0;
+}
