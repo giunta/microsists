@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int N,S,A;
+    cin >> N ;
+    A = 0;
+    S = 0;
+
+   while (A < N){
+   A = A + 2;
+   S = S + A ;}
+
+    cout << S << endl;
+    return 0;
+}
