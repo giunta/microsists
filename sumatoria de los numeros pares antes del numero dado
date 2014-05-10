@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
     int N,S,A;
+    cout << "introduzca el valor de N:";
     cin >> N ;
     A = 0;
     S = 0;
