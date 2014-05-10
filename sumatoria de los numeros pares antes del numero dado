@@ -10,9 +10,11 @@ int main()
     A = 0;
     S = 0;
 
-   while (A < N){
-   A = A + 2;
-   S = S + A ;}
+   while (A <= N){
+       S = S + A ;
+       A = A + 2;
+
+   }
 
     cout << S << endl;
     return 0;
