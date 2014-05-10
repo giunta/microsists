@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    int N;
+    cin >> N;
+
+    // verificar que N es primo
+    bool esPrimo=true;
+    for ( int i = 2 ; i < N; i++){
+        if ( N%i==0) esPrimo = false;
+
+    }
+    if ( !esPrimo ) {cout << N  << "  no es primo";}
+
+    else{cout << N  << " es primo";}
+
+
+
+    return 0;
+}
